@@ -1,7 +1,9 @@
 @media screen and (max-width: 600px){
 	.header {
 		width: 94%;
-		height: 80px;
+		height: 100px;
+		align-items: flex-start;
+		padding-top: 24px;
 	}
 	.header-list{
 		position: absolute;
@@ -45,6 +47,7 @@
 		width: 94%;
 		height: 160px;
 		border-radius: 8px;
+		margin-top: -56px;
 	}
 	.banner-list-tab{
 		bottom: 24px;
