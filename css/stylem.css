@@ -6,7 +6,7 @@
 		padding-top: 24px;
 	}
 	.header-list{
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		background: var(--ViColor);
@@ -28,6 +28,8 @@
 	.header-list-a{
 		color: #FFFFFF;
 		width: 100%;
+		height: 64px;
+		line-height: 64px;
 	}
 	.header-list-a-active,
 	.header-list-a:hover {
@@ -131,14 +133,8 @@
 		line-height: 40px;
 	}
 	.brand-box {
-		width: 32%;
+		width: 33%;
 		height: 100px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		margin-top: 16px;
 	}
 	.footer-content {
 		flex-direction: column;
@@ -159,4 +155,159 @@
 		align-items: center;
 		margin-top: 16px;
 	}
+	/*联系我们*/
+	.qrcode-box{
+		margin: 0 auto;
+		margin-top: 16px;
+	}
+	.contact-textarea{
+		width: 100%;
+	}
+	.marathon-baike-body {
+		height: auto;
+	}
+	.marathon-baike-box {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	/*赛事日历*/
+	.match-select-box{
+		width: 70%;
+	}
+	.match-select-box select{
+		width: 80px;
+	}
+	.match-calendar-list {
+		width: 46%;
+		margin: 0 0 12px 12px;
+	}
+	.match-calendar-list img {
+		height: 160px;
+	}
+	.icon-left img {
+		width: 18px;
+		height: 18px;
+	}
+	.match-calendar-list-bottom b {
+		font-size: 17px;
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+	/*赛事详情*/
+	.match-news-body {
+		flex-direction: column;
+	}
+	.match-news-body-left {
+		width: 100%;
+	}
+	.match-news-body-right {
+		margin-top: 24px;
+	}
+	.match-detail-information {
+		flex-wrap: wrap;
+		height: auto;
+		padding-bottom: 12px;
+	}
+	.match-detail-top-img {
+		height: 200px;
+	}
+	.match-detail-information-list {
+		width: 100%;
+		margin-top: 12px;
+	}
+	.hr-2{
+		display: none;
+	}
+	.match-news-body-right {
+		width: 100%;
+	}
+	.match-notice-right {
+		width: 88%;
+	}
+	.recommend-news-content p:nth-child(1) {
+		width: 90%;
+	}
+	.recommend-img-list img {
+		width: 49%;
+	}
+	.recommend-video-box {
+		width: 100%;
+	}
+	/*赛事资讯*/
+	.match-news-content {
+		width: 70%;
+		margin-left: 16px;
+	}
+	.match-news-img {
+		width: 30vw;
+		height: 30vw;
+	}
+	.match-news-content b {
+		font-size: 19px;
+		height: 50px;
+		overflow: hidden;
+	}
+	.match-news-content div {
+		margin-top: 12px;
+	}
+	.match-news-content p {
+		height: 40px;
+	}
+	/*新闻详情*/
+	.title-3 {
+		font-size: 26px;
+		width: 80%;
+		max-height: 70px;
+		overflow: hidden;
+	}
+	/*赛事图片*/
+	.match-photo-box {
+		width: 43vw;
+		height: 43vw;
+		margin: 8px;
+	}
+	/*图片详情*/
+	.photo-detail-body {
+		flex-direction: column;
+	}
+	
+	.photo-big {
+		width: 94vw;
+		height: 94vw;
+	}
+	.photo-right-list {
+		width: 94vw;
+		height: 124px;
+		margin-left: 0;
+		margin-top: 24px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+		position: relative;
+	}
+	.title-5 {
+		font-size: 26px;
+	}
+	/*赛事视频*/
+	.match-photo-body {
+		margin-top: 12px;
+	}
+	.match-video-box {
+		width: 43vw;
+		height: 55vw;
+		margin: 8px;
+	}
+	.match-video-box-top {
+		height:43vw;
+	}
+	.match-video-box-top img {
+		height: 43vw;
+	}
+	/*视频详情*/
+	.match-video-player{
+		width: 94vw;
+		height: auto;
+		max-height: 94vw;
+	}
+	
 }
