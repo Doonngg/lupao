@@ -40,7 +40,7 @@ color: #FFFFFF;
 }
 /*主色调*/
 :root{
-	--ViColor: #5E87F0;
+	--ViColor: #FFE01B;
 }
 .header{
 	position: fixed;
@@ -88,11 +88,14 @@ color: #FFFFFF;
 	width: 0;
 	margin: 0 auto;
 	height: 2px;
-	background: #FFFFFF;
+	background: var(--ViColor);
 	transition: all .3s;
 }
 .menu-list-tab:hover::after{
 	width: 100%;
+}
+.menu-list-tab-active{
+	color: var(--ViColor);
 }
 .menu-list-tab-active::before{
 	position: absolute;
@@ -101,7 +104,7 @@ color: #FFFFFF;
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: #FFFFFF;
+	background: var(--ViColor);
 	transition: all .3s;
 }
 .close-btn{
@@ -125,10 +128,11 @@ color: #FFFFFF;
 	margin-right: 40px;
 	border-radius: 4px;
 	cursor: pointer;
+	transition: all .3s;
+	color: #2953BF;
 }
 .sign-btn1:hover{
-	transition: all .3s;
-	background: #2953BF;
+	background: #DCC21C;
 }
 .zBody{
 	width: 100%;
@@ -226,8 +230,8 @@ color: #FFFFFF;
 	height: 40px;
 	text-align: center;
 	line-height: 40px;
+	font-size: 14px;
 	border-radius: 4px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
 	box-sizing: border-box;
 	cursor: pointer;
 	transition: all .3s;
@@ -235,9 +239,10 @@ color: #FFFFFF;
 .sou-btn1{
 	background: var(--ViColor);
 	margin-right: 12px;
+	color: #2953BF;
 }
 .sou-btn1:hover{
-	background: #2953BF;
+	background: #DCC21C;
 }
 .sou-btn2{
 	background: rgba(255, 255, 255, 0.3);
