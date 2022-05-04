@@ -194,6 +194,21 @@ color: #FFFFFF;
 	justify-content: space-between;
 	margin-top: 56px;
 	transition: all .3s;
+	position: relative;
+}
+.number-length{
+	font-size: 12px;
+	border-radius: 2px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	right: 70px;
+	width: 32px;
+	line-height: 24px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.3);
+	display: none;
 }
 .sou-box input{
 	width: 90%;

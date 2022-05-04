@@ -10,6 +10,17 @@ closeBtn.addEventListener("click", function() {
 })
 
 
+var souInput = document.querySelector(".sou-input");
+var numberLengthBox = document.querySelector(".number-length");
+souInput.addEventListener("input",function(){
+	numberLengthBox.innerHTML = souInput.value.length + "位";
+	numberLengthBox.style.display = "block";
+})
+souInput.addEventListener("blur",function(){
+	numberLengthBox.style.display = "none";
+})
+
+
 
 //css3动画封装
 function myAnimate(animateNode, animateEnd, animateStyle, animateTransition) {
