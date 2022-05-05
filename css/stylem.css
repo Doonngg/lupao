@@ -1,4 +1,10 @@
-/*手机��*/
+/*低分辨率电脑*/
+@media screen and (max-height: 600px) {
+	.sou-bottom{
+		margin-bottom: 0;
+	}
+}
+/*手机版*/
 @media screen and (max-width: 500px) {
 	.header{
 		border: none;
@@ -76,7 +82,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background: none;
 	}
 	.footer-left{
 		margin-left: 0;
